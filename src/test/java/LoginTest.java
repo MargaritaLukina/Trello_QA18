@@ -1,12 +1,26 @@
 import models.User;
+import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class LoginTest {
+public class LoginTest extends TestBase{
 
     @Test
     public void loginPositiveTest(){
 
         User user = User.builder().email("hatum.testing@gmail.com").password("Hatum21$").build();
+        // initLoginform
+        app.getUser().initLogin();
+        //fillloginform
+        app.getUser().fillLogin(user);
+        //submitloginform
+        app.getUser().submitLogin();
+        //assert
+        app.getUser().pause(2000);
+        app.getUser().fillPassword(user);
+        app.getUser().submitPassword();
+        app.getUser().pause(2000);
+        Assert.assertTrue(app.getUser().isElementPresent(By.className("OUdAuicP657Tka")));
     }
 
 }
