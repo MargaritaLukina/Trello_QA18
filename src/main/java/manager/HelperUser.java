@@ -43,4 +43,21 @@ public boolean isLogged(){
 public String getTextFromErrorEmailMessage(){
         return wd.findElement(By.cssSelector("p.error-message")).getText();
 }
+
+public String getTextFromErrorPasswordMessage(){
+        return wd.findElement(By.cssSelector("span[class='css-xal9c7'] span")).getText();
+}
+public void logout(){
+    //click
+    if (isLogged())
+    {
+   // click(By.cssSelector("button[data-testid='header-member-menu-button']"));
+        click(By.cssSelector("span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']"));
+        click(By.xpath("//button[@data-testid='account-menu-logout']"));
+    //click --> _OHV1cSBxHNA1V
+   // click(By.cssSelector("span[class='_OHV1cSBxHNA1V']"));
+    //click
+    click(By.id("logout-submit"));
+    }
+}
 }

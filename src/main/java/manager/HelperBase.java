@@ -46,8 +46,7 @@ public class HelperBase {
     public boolean isHomePage(){
         String current_url=wd.getCurrentUrl();
         System.out.println(current_url);
-        return current_url.equals("https://trello.com/");
-    }
+        return current_url.equals("https://trello.com/")||current_url.equals("https://trello.com/home");}
 
     public void returnToHome(){
         wd.navigate().to("https://trello.com");

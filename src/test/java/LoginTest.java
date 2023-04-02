@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class LoginTest extends TestBase{
 
     @Test
-    public void loginPositiveTest(){
+    public void aloginPositiveTest(){
 
         User user = User.builder().email("hatum.testing@gmail.com").password("Hatum21$").build();
         // initLoginform
@@ -22,6 +22,9 @@ public class LoginTest extends TestBase{
         //app.getUser().submitLogin();
         app.getUser().pause(2000);
         Assert.assertTrue(app.getUser().isElementPresent(By.className("OUdAuicP657Tka")));
+       // app.getUser().returnToHome();
+        app.getUser().logout();
+        app.getUser().pause(2000);
     }
     @Test
     public void loginNegativeWrongEmailTest(){
@@ -38,6 +41,23 @@ public class LoginTest extends TestBase{
         //<p class="error-message">There isn't an account for this username</p>
         app.getUser().returnToHome();
 
+    }
+
+    @Test
+    public void loginNegativeWrongPasswordTest(){
+        User user = User.builder().email("hatum.testing@gmail.com").password("Hatum").build();
+        app.getUser().initLogin();
+        app.getUser().fillLogin(user);
+        app.getUser().submitLogin();
+        // --> atlassian
+        app.getUser().pause(2000);
+        app.getUser().fillPassword(user);
+        app.getUser().submitPassword();
+        app.getUser().pause(2000);
+
+        Assert.assertFalse(app.getUser().isLogged());
+        Assert.assertTrue(app.getUser().getTextFromErrorPasswordMessage().contains("Incorrect email address and / or password.") );
+        app.getUser().returnToHome();
     }
 
 }
