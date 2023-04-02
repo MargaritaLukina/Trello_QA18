@@ -9,9 +9,13 @@ public class HelperUser extends HelperBase {
 
    // public HelperUser(){}
 
-    public void initLogin(){
-        click(By.cssSelector("a[href='/login']"));
+    public void initLogin() {
+        if (isHomePage()) {
+            click(By.cssSelector("a[href='/login']"));
+        }
     }
+
+
 
     public HelperUser(WebDriver wd){
         super(wd);
@@ -31,5 +35,12 @@ public void submitLogin(){
     }
 public void submitPassword(){
         click(By.id("login-submit"));
+}
+public boolean isLogged(){
+        pause(2000);
+        return isElementPresent(By.className("OUdAuicP657Tka"));
+}
+public String getTextFromErrorEmailMessage(){
+        return wd.findElement(By.cssSelector("p.error-message")).getText();
 }
 }
