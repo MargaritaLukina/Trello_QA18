@@ -8,6 +8,8 @@ public class LoginTest extends TestBase{
     @Test
     public void aloginPositiveTest(){
 
+        logger.info("Login Positive Test Started");
+
         User user = User.builder().email("hatum.testing@gmail.com").password("Hatum21$").build();
         // initLoginform
         app.getUser().initLogin();
@@ -25,6 +27,7 @@ public class LoginTest extends TestBase{
        // app.getUser().returnToHome();
         app.getUser().logout();
         app.getUser().pause(2000);
+        logger.info("Login Positive Test Completed");
     }
     @Test
     public void loginNegativeWrongEmailTest(){
