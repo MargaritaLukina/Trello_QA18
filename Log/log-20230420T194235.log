@@ -1,0 +1,69 @@
+19:42:42.039 INFO  manager.ApplicationManager Testing on Chrome Driver
+19:42:46.354 INFO  TestBase Login Positive Test Started
+19:42:46.588 INFO  manager.MyListener Start searching element by locator By.cssSelector: a[href='/login']
+19:42:47.528 INFO  manager.MyListener Finish searching element by locator By.cssSelector: a[href='/login']
+19:42:51.061 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (bdfcf1e718e0d4ca7282d16c549f84e1)] -> css selector: a[href='/login']]
+19:42:51.061 INFO  manager.MyListener Start searching element by locator By.id: user
+19:42:51.117 INFO  manager.MyListener Finish searching element by locator By.id: user
+19:42:51.390 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (bdfcf1e718e0d4ca7282d16c549f84e1)] -> id: user]
+19:42:51.816 INFO  manager.MyListener Start searching element by locator By.id: login
+19:42:51.860 INFO  manager.MyListener Finish searching element by locator By.id: login
+19:42:52.044 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (bdfcf1e718e0d4ca7282d16c549f84e1)] -> id: login]
+19:42:54.056 INFO  manager.MyListener Start searching element by locator By.id: password
+19:42:55.197 INFO  manager.MyListener Finish searching element by locator By.id: password
+19:42:55.342 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (bdfcf1e718e0d4ca7282d16c549f84e1)] -> id: password]
+19:42:55.607 INFO  manager.MyListener Start searching element by locator By.id: login-submit
+19:42:55.650 INFO  manager.MyListener Finish searching element by locator By.id: login-submit
+19:42:55.791 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (bdfcf1e718e0d4ca7282d16c549f84e1)] -> id: login-submit]
+19:42:57.794 INFO  manager.MyListener Start searching element by locator By.className: OUdAuicP657Tka
+19:43:02.223 INFO  manager.MyListener Finish searching element by locator By.className: OUdAuicP657Tka
+19:43:04.243 INFO  manager.MyListener Start searching element by locator By.className: OUdAuicP657Tka
+19:43:04.266 INFO  manager.MyListener Finish searching element by locator By.className: OUdAuicP657Tka
+19:43:04.267 INFO  manager.MyListener Start searching element by locator By.cssSelector: span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']
+19:43:04.286 INFO  manager.MyListener Finish searching element by locator By.cssSelector: span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']
+19:43:04.406 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (bdfcf1e718e0d4ca7282d16c549f84e1)] -> css selector: span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']]
+19:43:04.406 INFO  manager.MyListener Start searching element by locator By.xpath: //button[@data-testid='account-menu-logout']
+19:43:04.460 INFO  manager.MyListener Finish searching element by locator By.xpath: //button[@data-testid='account-menu-logout']
+19:43:06.341 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (bdfcf1e718e0d4ca7282d16c549f84e1)] -> xpath: //button[@data-testid='account-menu-logout']]
+19:43:06.341 INFO  manager.MyListener Start searching element by locator By.id: logout-submit
+19:43:06.377 INFO  manager.MyListener Finish searching element by locator By.id: logout-submit
+19:43:07.157 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (bdfcf1e718e0d4ca7282d16c549f84e1)] -> id: logout-submit]
+19:43:09.169 INFO  TestBase Login Positive Test Completed
+19:43:11.535 INFO  manager.MyListener Start searching element by locator By.cssSelector: a[href='/login']
+19:43:11.606 INFO  manager.MyListener Finish searching element by locator By.cssSelector: a[href='/login']
+19:43:13.129 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (bdfcf1e718e0d4ca7282d16c549f84e1)] -> css selector: a[href='/login']]
+19:43:13.129 INFO  manager.MyListener Start searching element by locator By.id: user
+19:43:13.180 INFO  manager.MyListener Finish searching element by locator By.id: user
+19:43:13.329 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (bdfcf1e718e0d4ca7282d16c549f84e1)] -> id: user]
+19:43:13.504 INFO  manager.MyListener Start searching element by locator By.id: login
+19:43:13.540 INFO  manager.MyListener Finish searching element by locator By.id: login
+19:43:13.645 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (bdfcf1e718e0d4ca7282d16c549f84e1)] -> id: login]
+19:43:15.657 INFO  manager.MyListener Start searching element by locator By.id: password
+19:43:15.698 INFO  manager.MyListener Finish searching element by locator By.id: password
+19:43:15.786 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (bdfcf1e718e0d4ca7282d16c549f84e1)] -> id: password]
+19:43:15.983 INFO  manager.MyListener Start searching element by locator By.id: login
+19:43:16.012 INFO  manager.MyListener Finish searching element by locator By.id: login
+19:43:16.153 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (bdfcf1e718e0d4ca7282d16c549f84e1)] -> id: login]
+19:43:18.156 INFO  manager.MyListener Start searching element by locator By.className: OUdAuicP657Tka
+19:43:28.233 INFO  manager.MyListener Finish searching element by locator By.className: OUdAuicP657Tka
+19:43:28.233 INFO  manager.MyListener Start searching element by locator By.cssSelector: p.error-message
+19:43:28.318 INFO  manager.MyListener Finish searching element by locator By.cssSelector: p.error-message
+19:43:32.608 INFO  manager.MyListener Start searching element by locator By.cssSelector: a[href='/login']
+19:43:32.698 INFO  manager.MyListener Finish searching element by locator By.cssSelector: a[href='/login']
+19:43:35.910 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (bdfcf1e718e0d4ca7282d16c549f84e1)] -> css selector: a[href='/login']]
+19:43:35.911 INFO  manager.MyListener Start searching element by locator By.id: user
+19:43:35.996 INFO  manager.MyListener Finish searching element by locator By.id: user
+19:43:36.102 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (bdfcf1e718e0d4ca7282d16c549f84e1)] -> id: user]
+19:43:36.382 INFO  manager.MyListener Start searching element by locator By.id: login
+19:43:36.431 INFO  manager.MyListener Finish searching element by locator By.id: login
+19:43:36.582 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (bdfcf1e718e0d4ca7282d16c549f84e1)] -> id: login]
+19:43:38.588 INFO  manager.MyListener Start searching element by locator By.id: password
+19:43:38.713 INFO  manager.MyListener Finish searching element by locator By.id: password
+19:43:38.866 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (bdfcf1e718e0d4ca7282d16c549f84e1)] -> id: password]
+19:43:39.105 INFO  manager.MyListener Start searching element by locator By.id: login-submit
+19:43:39.138 INFO  manager.MyListener Finish searching element by locator By.id: login-submit
+19:43:39.234 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (bdfcf1e718e0d4ca7282d16c549f84e1)] -> id: login-submit]
+19:43:43.245 INFO  manager.MyListener Start searching element by locator By.className: OUdAuicP657Tka
+19:43:53.310 INFO  manager.MyListener Finish searching element by locator By.className: OUdAuicP657Tka
+19:43:53.310 INFO  manager.MyListener Start searching element by locator By.cssSelector: span[class='css-xal9c7'] span
+19:43:53.331 INFO  manager.MyListener Finish searching element by locator By.cssSelector: span[class='css-xal9c7'] span

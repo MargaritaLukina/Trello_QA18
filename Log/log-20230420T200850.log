@@ -1,0 +1,67 @@
+20:08:55.275 INFO  manager.ApplicationManager Testing on Chrome Driver
+20:08:58.919 INFO  TestBase Login Positive Test Started
+20:08:59.097 INFO  manager.MyListener Start searching element by locator By.cssSelector: a[href='/login']
+20:08:59.707 INFO  manager.MyListener Finish searching element by locator By.cssSelector: a[href='/login']
+20:09:02.526 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (f5c8753cfc18cb69ebd5c2607f84840f)] -> css selector: a[href='/login']]
+20:09:02.527 INFO  manager.MyListener Start searching element by locator By.id: user
+20:09:02.631 INFO  manager.MyListener Finish searching element by locator By.id: user
+20:09:03.026 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (f5c8753cfc18cb69ebd5c2607f84840f)] -> id: user]
+20:09:03.510 INFO  manager.MyListener Start searching element by locator By.id: login
+20:09:03.577 INFO  manager.MyListener Finish searching element by locator By.id: login
+20:09:03.782 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (f5c8753cfc18cb69ebd5c2607f84840f)] -> id: login]
+20:09:05.792 INFO  manager.MyListener Start searching element by locator By.id: password
+20:09:06.734 INFO  manager.MyListener Finish searching element by locator By.id: password
+20:09:06.858 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (f5c8753cfc18cb69ebd5c2607f84840f)] -> id: password]
+20:09:07.077 INFO  manager.MyListener Start searching element by locator By.id: login-submit
+20:09:07.118 INFO  manager.MyListener Finish searching element by locator By.id: login-submit
+20:09:07.252 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (f5c8753cfc18cb69ebd5c2607f84840f)] -> id: login-submit]
+20:09:09.258 INFO  manager.MyListener Start searching element by locator By.className: OUdAuicP657Tka
+20:09:13.323 INFO  manager.MyListener Finish searching element by locator By.className: OUdAuicP657Tka
+20:09:15.337 INFO  manager.MyListener Start searching element by locator By.className: OUdAuicP657Tka
+20:09:15.406 INFO  manager.MyListener Finish searching element by locator By.className: OUdAuicP657Tka
+20:09:15.406 INFO  manager.MyListener Start searching element by locator By.cssSelector: span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']
+20:09:15.438 INFO  manager.MyListener Finish searching element by locator By.cssSelector: span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']
+20:09:15.760 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (f5c8753cfc18cb69ebd5c2607f84840f)] -> css selector: span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']]
+20:09:15.760 INFO  manager.MyListener Start searching element by locator By.xpath: //button[@data-testid='account-menu-logout']
+20:09:15.908 INFO  manager.MyListener Finish searching element by locator By.xpath: //button[@data-testid='account-menu-logout']
+20:09:18.142 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (f5c8753cfc18cb69ebd5c2607f84840f)] -> xpath: //button[@data-testid='account-menu-logout']]
+20:09:18.144 INFO  manager.MyListener Start searching element by locator By.id: logout-submit
+20:09:18.181 INFO  manager.MyListener Finish searching element by locator By.id: logout-submit
+20:09:18.938 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (f5c8753cfc18cb69ebd5c2607f84840f)] -> id: logout-submit]
+20:09:20.950 INFO  TestBase Login Positive Test Completed
+20:09:23.930 INFO  manager.MyListener Start searching element by locator By.cssSelector: a[href='/login']
+20:09:23.974 INFO  manager.MyListener Finish searching element by locator By.cssSelector: a[href='/login']
+20:09:34.315 INFO  manager.MyListener Something went wrong!
+20:09:34.315 INFO  manager.MyListener element not interactable
+  (Session info: chrome=112.0.5615.137)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MLUKINA-L', ip: '192.168.80.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\mlukina\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f5c8753cfc18cb69ebd5c2607f84840f
+20:09:34.315 INFO  manager.MyListener element not interactable
+  (Session info: chrome=112.0.5615.137)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MLUKINA-L', ip: '192.168.80.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\mlukina\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f5c8753cfc18cb69ebd5c2607f84840f
+20:09:34.985 INFO  manager.MyListener Here is the link to screenshot with error: src/test/screenshots/screenshot-574.png
+20:09:35.004 INFO  manager.MyListener Start searching element by locator By.cssSelector: a[href='/login']
+20:09:35.029 INFO  manager.MyListener Finish searching element by locator By.cssSelector: a[href='/login']
+20:09:45.096 INFO  manager.MyListener Something went wrong!
+20:09:45.097 INFO  manager.MyListener element not interactable
+  (Session info: chrome=112.0.5615.137)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MLUKINA-L', ip: '192.168.80.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\mlukina\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f5c8753cfc18cb69ebd5c2607f84840f
+20:09:45.097 INFO  manager.MyListener element not interactable
+  (Session info: chrome=112.0.5615.137)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MLUKINA-L', ip: '192.168.80.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\mlukina\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f5c8753cfc18cb69ebd5c2607f84840f
+20:09:45.600 INFO  manager.MyListener Here is the link to screenshot with error: src/test/screenshots/screenshot-585.png
