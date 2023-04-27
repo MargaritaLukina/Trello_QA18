@@ -1,0 +1,65 @@
+20:22:08.286 INFO  manager.ApplicationManager Testing on Chrome Driver
+20:22:13.016 INFO  manager.NGListener Start
+20:22:13.123 INFO  manager.NGListener Test started: loginNegativeWrongEmailTest
+20:22:13.567 INFO  manager.MyListener Start searching element by locator By.cssSelector: a[href='/login']
+20:22:13.599 INFO  manager.MyListener Finish searching element by locator By.cssSelector: a[href='/login']
+20:22:15.883 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (10dd9f2cf2ff2df95c348d5cbc859232)] -> css selector: a[href='/login']]
+20:22:15.883 INFO  manager.MyListener Start searching element by locator By.id: user
+20:22:15.947 INFO  manager.MyListener Finish searching element by locator By.id: user
+20:22:16.224 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (10dd9f2cf2ff2df95c348d5cbc859232)] -> id: user]
+20:22:16.537 INFO  manager.MyListener Start searching element by locator By.id: login
+20:22:16.571 INFO  manager.MyListener Finish searching element by locator By.id: login
+20:22:16.739 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (10dd9f2cf2ff2df95c348d5cbc859232)] -> id: login]
+20:22:18.751 INFO  manager.MyListener Start searching element by locator By.id: password
+20:22:18.786 INFO  manager.MyListener Finish searching element by locator By.id: password
+20:22:18.873 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (10dd9f2cf2ff2df95c348d5cbc859232)] -> id: password]
+20:22:19.028 INFO  manager.MyListener Start searching element by locator By.id: login
+20:22:19.049 INFO  manager.MyListener Finish searching element by locator By.id: login
+20:22:19.133 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (10dd9f2cf2ff2df95c348d5cbc859232)] -> id: login]
+20:22:21.147 INFO  manager.MyListener Start searching element by locator By.className: OUdAuicP657Tka
+20:22:31.208 INFO  manager.MyListener Finish searching element by locator By.className: OUdAuicP657Tka
+20:22:31.212 INFO  manager.MyListener Start searching element by locator By.cssSelector: p.error-message
+20:22:31.314 INFO  manager.MyListener Finish searching element by locator By.cssSelector: p.error-message
+20:22:34.879 INFO  manager.NGListener Test successfully completed: loginNegativeWrongEmailTest
+20:22:34.881 INFO  manager.NGListener Test started: loginNegativeWrongEmailTest
+20:22:35.186 INFO  manager.MyListener Start searching element by locator By.cssSelector: a[href='/login']
+20:22:35.254 INFO  manager.MyListener Finish searching element by locator By.cssSelector: a[href='/login']
+20:22:37.572 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (10dd9f2cf2ff2df95c348d5cbc859232)] -> css selector: a[href='/login']]
+20:22:37.572 INFO  manager.MyListener Start searching element by locator By.id: user
+20:22:37.645 INFO  manager.MyListener Finish searching element by locator By.id: user
+20:22:37.782 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (10dd9f2cf2ff2df95c348d5cbc859232)] -> id: user]
+20:22:38.242 INFO  manager.MyListener Start searching element by locator By.id: login
+20:22:38.274 INFO  manager.MyListener Finish searching element by locator By.id: login
+20:22:38.441 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (10dd9f2cf2ff2df95c348d5cbc859232)] -> id: login]
+20:22:40.443 INFO  manager.MyListener Start searching element by locator By.id: password
+20:22:40.470 INFO  manager.MyListener Finish searching element by locator By.id: password
+20:22:40.527 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (10dd9f2cf2ff2df95c348d5cbc859232)] -> id: password]
+20:22:40.633 INFO  manager.MyListener Start searching element by locator By.id: login
+20:22:40.657 INFO  manager.MyListener Finish searching element by locator By.id: login
+20:22:40.722 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (10dd9f2cf2ff2df95c348d5cbc859232)] -> id: login]
+20:22:42.727 INFO  manager.MyListener Start searching element by locator By.className: OUdAuicP657Tka
+20:22:52.806 INFO  manager.MyListener Finish searching element by locator By.className: OUdAuicP657Tka
+20:22:52.806 INFO  manager.MyListener Start searching element by locator By.cssSelector: p.error-message
+20:22:52.834 INFO  manager.MyListener Finish searching element by locator By.cssSelector: p.error-message
+20:22:52.853 ERROR manager.NGListener Test failed: loginNegativeWrongEmailTest
+20:22:52.853 INFO  manager.NGListener Test started: loginNegativeWrongEmailTest
+20:22:52.860 INFO  manager.MyListener Start searching element by locator By.id: user
+20:22:52.871 INFO  manager.MyListener Finish searching element by locator By.id: user
+20:23:02.957 ERROR manager.MyListener Something went wrong!
+20:23:02.957 ERROR manager.MyListener element not interactable
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MLUKINA-L', ip: '192.168.80.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mlukina\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55782}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 10dd9f2cf2ff2df95c348d5cbc859232
+20:23:02.957 ERROR manager.MyListener element not interactable
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MLUKINA-L', ip: '192.168.80.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mlukina\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55782}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 10dd9f2cf2ff2df95c348d5cbc859232
+20:23:03.227 INFO  manager.MyListener Here is the link to screenshot with error: src/test/screenshots/screenshot-1382.png
+20:23:03.228 ERROR manager.NGListener Test failed: loginNegativeWrongEmailTest
+20:23:03.232 INFO  manager.NGListener Finish

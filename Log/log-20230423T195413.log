@@ -1,0 +1,4 @@
+19:54:17.824 INFO  manager.ApplicationManager Testing on Chrome Driver
+19:54:20.582 INFO  manager.NGListener Start
+19:54:20.675 ERROR manager.NGListener Test failed: loginPositiveTest
+19:54:20.684 INFO  manager.NGListener Finish

@@ -1,0 +1,45 @@
+20:50:09.766 INFO  manager.ApplicationManager Config file is :config
+20:50:09.769 INFO  manager.ApplicationManager Config file fullname is :C:\QA18\Trello_QA18\src\test\resources\config.properties
+20:50:13.895 INFO  manager.ApplicationManager Testing on Chrome Driver
+20:50:16.035 INFO  manager.ApplicationManager Base url is: https://trello.com
+20:50:16.052 INFO  manager.NGListener Start
+20:50:16.095 INFO  manager.NGListener Test started: loginPositiveTest
+20:50:16.127 INFO  manager.MyListener Start searching element by locator By.cssSelector: a[href='/login']
+20:50:16.254 INFO  manager.MyListener Finish searching element by locator By.cssSelector: a[href='/login']
+20:50:17.941 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (f25d7036a4c37c429253db85bcdfdc82)] -> css selector: a[href='/login']]
+20:50:17.941 INFO  manager.MyListener Start searching element by locator By.id: user
+20:50:17.973 INFO  manager.MyListener Finish searching element by locator By.id: user
+20:50:18.059 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (f25d7036a4c37c429253db85bcdfdc82)] -> id: user]
+20:50:18.216 INFO  manager.MyListener Start searching element by locator By.id: login
+20:50:18.254 INFO  manager.MyListener Finish searching element by locator By.id: login
+20:50:18.324 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (f25d7036a4c37c429253db85bcdfdc82)] -> id: login]
+20:50:20.335 INFO  manager.MyListener Start searching element by locator By.id: password
+20:50:20.712 INFO  manager.MyListener Finish searching element by locator By.id: password
+20:50:20.824 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (f25d7036a4c37c429253db85bcdfdc82)] -> id: password]
+20:50:20.932 INFO  manager.MyListener Start searching element by locator By.id: login-submit
+20:50:20.946 INFO  manager.MyListener Finish searching element by locator By.id: login-submit
+20:50:21.007 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (f25d7036a4c37c429253db85bcdfdc82)] -> id: login-submit]
+20:50:23.010 INFO  manager.MyListener Start searching element by locator By.className: OUdAuicP657Tka
+20:50:26.178 INFO  manager.MyListener Finish searching element by locator By.className: OUdAuicP657Tka
+20:50:28.188 INFO  manager.MyListener Start searching element by locator By.className: OUdAuicP657Tka
+20:50:28.223 INFO  manager.MyListener Finish searching element by locator By.className: OUdAuicP657Tka
+20:50:28.223 INFO  manager.MyListener Start searching element by locator By.cssSelector: span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']
+20:50:28.263 INFO  manager.MyListener Finish searching element by locator By.cssSelector: span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']
+20:50:29.417 ERROR manager.MyListener Something went wrong!
+20:50:29.418 ERROR manager.MyListener element click intercepted: Element <span title="hatum.testing (hatumqa)" class="DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM" style="height: 24px; width: 24px; line-height: 24px; background-image: url(&quot;https://trello-members.s3.amazonaws.com/5e33cdb2da2735326e42e126/0db8028070b0f6a5b5a10e07eac7dde7/30.png&quot;);"></span> is not clickable at point (1900, 22). Other element would receive the click: <div class="css-1emz661" style="transition: opacity 100ms ease 0s; opacity: 1; background-color: var(--ds-blanket, rgba(9, 30, 66, 0.54));"></div>
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MLUKINA-L', ip: '192.168.80.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mlukina\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57146}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f25d7036a4c37c429253db85bcdfdc82
+20:50:29.418 ERROR manager.MyListener element click intercepted: Element <span title="hatum.testing (hatumqa)" class="DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM" style="height: 24px; width: 24px; line-height: 24px; background-image: url(&quot;https://trello-members.s3.amazonaws.com/5e33cdb2da2735326e42e126/0db8028070b0f6a5b5a10e07eac7dde7/30.png&quot;);"></span> is not clickable at point (1900, 22). Other element would receive the click: <div class="css-1emz661" style="transition: opacity 100ms ease 0s; opacity: 1; background-color: var(--ds-blanket, rgba(9, 30, 66, 0.54));"></div>
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MLUKINA-L', ip: '192.168.80.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mlukina\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57146}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f25d7036a4c37c429253db85bcdfdc82
+20:50:29.729 INFO  manager.MyListener Here is the link to screenshot with error: src/test/screenshots/screenshot-3029.png
+20:50:29.731 ERROR manager.NGListener Test failed: loginPositiveTest
+20:50:29.734 INFO  manager.NGListener Finish

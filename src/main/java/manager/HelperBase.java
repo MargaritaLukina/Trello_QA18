@@ -52,8 +52,12 @@ public class HelperBase {
     public void returnToHome(){
         wd.navigate().to("https://trello.com");
     }
+
     public void takeScreenShot(String link)  {
       File tmp=  ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
+
+
+
         File screenshot = new File(link);
         try {
             Files.copy(tmp, screenshot);

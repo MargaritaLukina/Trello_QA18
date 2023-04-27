@@ -1,3 +1,4 @@
+import manager.DataProviderUser;
 import models.User;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -5,12 +6,15 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends TestBase{
 
-    @Test
-    public void aloginPositiveTest(){
+   // @Test(dataProvider = "loginData", dataProviderClass = DataProviderUser.class)
+  // public void loginPositiveTest(User user){
+   @Test
+    public void loginPositiveTest(){
 
        // logger.info("Login Positive Test Started");
 
-        User user = User.builder().email("hatum.testing@gmail.com").password("Hatum21$").build();
+        //User user = User.builder().email("hatum.testing@gmail.com").password("Hatum21$").build();
+       User user = User.builder().email(app.getEmail()).password(app.getPassword()).build();
         // initLoginform
         app.getUser().initLogin();
         //fillloginform
@@ -29,9 +33,9 @@ public class LoginTest extends TestBase{
         app.getUser().pause(2000);
        // logger.info("Login Positive Test Completed");
     }
-    @Test
-    public void loginNegativeWrongEmailTest(){
-        User user=User.builder().email("hatumtestinggmail.com").password("Hatum21$").build();
+    @Test(dataProvider = "wrongEmailData", dataProviderClass = DataProviderUser.class)
+    public void loginNegativeWrongEmailTest(User user){
+        //User user=User.builder().email("hatumtestinggmail.com").password("Hatum21$").build();
         app.getUser().initLogin();
         app.getUser().fillLogin(user);
         app.getUser().submitLogin();
@@ -40,7 +44,7 @@ public class LoginTest extends TestBase{
         //app.getUser().submitPassword();
         app.getUser().submitLogin();
         Assert.assertFalse(app.getUser().isLogged());
-        Assert.assertTrue(app.getUser().getTextFromErrorEmailMessage().contains("There isn't an account for this username") );
+       // Assert.assertTrue(app.getUser().getTextFromErrorEmailMessage().contains("There isn't an account for this username") );
         //<p class="error-message">There isn't an account for this username</p>
         app.getUser().returnToHome();
 

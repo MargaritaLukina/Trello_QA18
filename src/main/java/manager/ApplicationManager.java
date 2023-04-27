@@ -2,30 +2,70 @@ package manager;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
   //  WebDriver wd;
     EventFiringWebDriver wd;
     HelperUser user;
-    Logger logger= LoggerFactory.getLogger(ApplicationManager.class);
 
-    public void init(){
-        wd= new EventFiringWebDriver(new ChromeDriver());
+    public ApplicationManager(String browser) {
+        properties=new Properties();
+        this.browser = browser;
+    }
+
+    String browser;
+    Logger logger= LoggerFactory.getLogger(ApplicationManager.class);
+    Properties properties;
+
+    public void init() throws IOException {
+        String target= System.getProperty("target","config");
+
+        logger.info("Config file is :" +target);
+
+        String fileName = String.format("C:\\QA18\\Trello_QA18\\src\\test\\resources\\%s.properties",target);
+        logger.info("Config file fullname is :"+fileName);
+        //properties.load(new FileReader(new File(fileName)));
+    properties.load(new FileReader(new File(fileName)));
+
+        if(browser.equals(BrowserType.CHROME)){
+            wd= new EventFiringWebDriver(new ChromeDriver());
+            logger.info("Testing on Chrome Driver");
+        }else if (browser.equals(BrowserType.FIREFOX)){
+            wd= new EventFiringWebDriver(new FirefoxDriver());
+            logger.info("Testing in Firefox");
+        }
+
         wd.register(new MyListener());
        // wd= new ChromeDriver();
-        logger.info("Testing on Chrome Driver");
+
         wd.manage().window().maximize();
-        wd.navigate().to("https://trello.com");
+        //wd.navigate().to("https://trello.com");
+
+        wd.navigate().to(properties.getProperty("web.baseUrl"));
+        logger.info("Base url is: "+properties.getProperty("web.baseUrl"));
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         user = new HelperUser(wd);
 
     }
+    public String getEmail(){
+        return properties.getProperty("web.email");
+    }
 
+    public String getPassword(){
+        return properties.getProperty("web.password");
+    }
     public HelperUser getUser(){
         return user;
 

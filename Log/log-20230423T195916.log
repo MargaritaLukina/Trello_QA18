@@ -1,0 +1,75 @@
+19:59:22.588 INFO  manager.ApplicationManager Testing on Chrome Driver
+19:59:27.391 INFO  manager.NGListener Start
+19:59:27.547 INFO  manager.NGListener Test started: loginPositiveTest
+19:59:27.822 INFO  manager.MyListener Start searching element by locator By.cssSelector: a[href='/login']
+19:59:27.861 INFO  manager.MyListener Finish searching element by locator By.cssSelector: a[href='/login']
+19:59:30.776 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (3b721f53368a7e9d4dd5a0c610014f3a)] -> css selector: a[href='/login']]
+19:59:30.777 INFO  manager.MyListener Start searching element by locator By.id: user
+19:59:30.865 INFO  manager.MyListener Finish searching element by locator By.id: user
+19:59:31.150 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (3b721f53368a7e9d4dd5a0c610014f3a)] -> id: user]
+19:59:31.418 INFO  manager.MyListener Start searching element by locator By.id: login
+19:59:31.474 INFO  manager.MyListener Finish searching element by locator By.id: login
+19:59:31.919 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (3b721f53368a7e9d4dd5a0c610014f3a)] -> id: login]
+19:59:33.927 INFO  manager.MyListener Start searching element by locator By.id: password
+19:59:35.328 INFO  manager.MyListener Finish searching element by locator By.id: password
+19:59:35.433 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (3b721f53368a7e9d4dd5a0c610014f3a)] -> id: password]
+19:59:35.626 INFO  manager.MyListener Start searching element by locator By.id: login-submit
+19:59:35.663 INFO  manager.MyListener Finish searching element by locator By.id: login-submit
+19:59:35.849 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (3b721f53368a7e9d4dd5a0c610014f3a)] -> id: login-submit]
+19:59:37.855 INFO  manager.MyListener Start searching element by locator By.className: OUdAuicP657Tka
+19:59:41.591 INFO  manager.MyListener Finish searching element by locator By.className: OUdAuicP657Tka
+19:59:43.604 INFO  manager.MyListener Start searching element by locator By.className: OUdAuicP657Tka
+19:59:43.627 INFO  manager.MyListener Finish searching element by locator By.className: OUdAuicP657Tka
+19:59:43.627 INFO  manager.MyListener Start searching element by locator By.cssSelector: span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']
+19:59:43.647 INFO  manager.MyListener Finish searching element by locator By.cssSelector: span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']
+19:59:43.762 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (3b721f53368a7e9d4dd5a0c610014f3a)] -> css selector: span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']]
+19:59:43.762 INFO  manager.MyListener Start searching element by locator By.xpath: //button[@data-testid='account-menu-logout']
+19:59:43.835 INFO  manager.MyListener Finish searching element by locator By.xpath: //button[@data-testid='account-menu-logout']
+19:59:45.729 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (3b721f53368a7e9d4dd5a0c610014f3a)] -> xpath: //button[@data-testid='account-menu-logout']]
+19:59:45.730 INFO  manager.MyListener Start searching element by locator By.id: logout-submit
+19:59:45.776 INFO  manager.MyListener Finish searching element by locator By.id: logout-submit
+19:59:46.532 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (3b721f53368a7e9d4dd5a0c610014f3a)] -> id: logout-submit]
+19:59:48.549 INFO  manager.NGListener Test successfully completed: loginPositiveTest
+19:59:48.550 INFO  manager.NGListener Test started: loginPositiveTest
+19:59:50.691 INFO  manager.MyListener Start searching element by locator By.cssSelector: a[href='/login']
+19:59:50.811 INFO  manager.MyListener Finish searching element by locator By.cssSelector: a[href='/login']
+19:59:52.535 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (3b721f53368a7e9d4dd5a0c610014f3a)] -> css selector: a[href='/login']]
+19:59:52.536 INFO  manager.MyListener Start searching element by locator By.id: user
+19:59:52.571 INFO  manager.MyListener Finish searching element by locator By.id: user
+19:59:52.727 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (3b721f53368a7e9d4dd5a0c610014f3a)] -> id: user]
+19:59:53.039 INFO  manager.MyListener Start searching element by locator By.id: login
+19:59:53.069 INFO  manager.MyListener Finish searching element by locator By.id: login
+19:59:53.199 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (3b721f53368a7e9d4dd5a0c610014f3a)] -> id: login]
+19:59:55.205 INFO  manager.MyListener Start searching element by locator By.id: password
+19:59:55.500 INFO  manager.MyListener Finish searching element by locator By.id: password
+19:59:55.608 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (3b721f53368a7e9d4dd5a0c610014f3a)] -> id: password]
+19:59:55.880 INFO  manager.MyListener Start searching element by locator By.id: login-submit
+19:59:55.915 INFO  manager.MyListener Finish searching element by locator By.id: login-submit
+19:59:56.021 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (3b721f53368a7e9d4dd5a0c610014f3a)] -> id: login-submit]
+19:59:58.029 INFO  manager.MyListener Start searching element by locator By.className: OUdAuicP657Tka
+20:00:01.764 INFO  manager.MyListener Finish searching element by locator By.className: OUdAuicP657Tka
+20:00:03.772 INFO  manager.MyListener Start searching element by locator By.className: OUdAuicP657Tka
+20:00:03.795 INFO  manager.MyListener Finish searching element by locator By.className: OUdAuicP657Tka
+20:00:03.796 INFO  manager.MyListener Start searching element by locator By.cssSelector: span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']
+20:00:13.838 ERROR manager.MyListener Something went wrong!
+20:00:13.838 ERROR manager.MyListener no such element: Unable to locate element: {"method":"css selector","selector":"span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MLUKINA-L', ip: '192.168.80.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mlukina\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b721f53368a7e9d4dd5a0c610014f3a
+*** Element info: {Using=css selector, value=span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']}
+20:00:13.838 ERROR manager.MyListener no such element: Unable to locate element: {"method":"css selector","selector":"span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MLUKINA-L', ip: '192.168.80.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mlukina\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b721f53368a7e9d4dd5a0c610014f3a
+*** Element info: {Using=css selector, value=span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']}
+20:00:14.181 INFO  manager.MyListener Here is the link to screenshot with error: src/test/screenshots/screenshot-13.png
+20:00:14.183 ERROR manager.NGListener Test failed: loginPositiveTest
+20:00:14.189 INFO  manager.NGListener Finish

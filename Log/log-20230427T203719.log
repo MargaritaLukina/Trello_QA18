@@ -1,0 +1,4 @@
+20:37:19.222 INFO  manager.ApplicationManager Config file is :config
+20:37:19.226 INFO  manager.NGListener Start
+20:37:19.269 INFO  manager.NGListener Test started: loginPositiveTest
+20:37:19.272 INFO  manager.NGListener Finish

@@ -1,0 +1,60 @@
+20:24:33.654 INFO  manager.ApplicationManager Testing on Chrome Driver
+20:24:37.859 INFO  manager.NGListener Start
+20:24:37.978 INFO  manager.NGListener Test started: loginNegativeWrongEmailTest
+20:24:38.099 INFO  manager.MyListener Start searching element by locator By.cssSelector: a[href='/login']
+20:24:38.670 INFO  manager.MyListener Finish searching element by locator By.cssSelector: a[href='/login']
+20:24:41.487 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (42d4d6ec759afacd094e72d650eab021)] -> css selector: a[href='/login']]
+20:24:41.487 INFO  manager.MyListener Start searching element by locator By.id: user
+20:24:41.684 INFO  manager.MyListener Finish searching element by locator By.id: user
+20:24:42.357 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (42d4d6ec759afacd094e72d650eab021)] -> id: user]
+20:24:42.720 INFO  manager.MyListener Start searching element by locator By.id: login
+20:24:42.756 INFO  manager.MyListener Finish searching element by locator By.id: login
+20:24:42.868 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (42d4d6ec759afacd094e72d650eab021)] -> id: login]
+20:24:44.870 INFO  manager.MyListener Start searching element by locator By.id: password
+20:24:44.908 INFO  manager.MyListener Finish searching element by locator By.id: password
+20:24:44.988 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (42d4d6ec759afacd094e72d650eab021)] -> id: password]
+20:24:45.140 INFO  manager.MyListener Start searching element by locator By.id: login
+20:24:45.164 INFO  manager.MyListener Finish searching element by locator By.id: login
+20:24:45.269 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (42d4d6ec759afacd094e72d650eab021)] -> id: login]
+20:24:47.273 INFO  manager.MyListener Start searching element by locator By.className: OUdAuicP657Tka
+20:24:57.339 INFO  manager.MyListener Finish searching element by locator By.className: OUdAuicP657Tka
+20:24:59.797 INFO  manager.NGListener Test successfully completed: loginNegativeWrongEmailTest
+20:24:59.799 INFO  manager.NGListener Test started: loginNegativeWrongEmailTest
+20:25:00.115 INFO  manager.MyListener Start searching element by locator By.cssSelector: a[href='/login']
+20:25:00.234 INFO  manager.MyListener Finish searching element by locator By.cssSelector: a[href='/login']
+20:25:02.692 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (42d4d6ec759afacd094e72d650eab021)] -> css selector: a[href='/login']]
+20:25:02.692 INFO  manager.MyListener Start searching element by locator By.id: user
+20:25:02.745 INFO  manager.MyListener Finish searching element by locator By.id: user
+20:25:02.903 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (42d4d6ec759afacd094e72d650eab021)] -> id: user]
+20:25:03.168 INFO  manager.MyListener Start searching element by locator By.id: login
+20:25:03.208 INFO  manager.MyListener Finish searching element by locator By.id: login
+20:25:03.321 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (42d4d6ec759afacd094e72d650eab021)] -> id: login]
+20:25:05.328 INFO  manager.MyListener Start searching element by locator By.id: password
+20:25:05.355 INFO  manager.MyListener Finish searching element by locator By.id: password
+20:25:05.404 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (42d4d6ec759afacd094e72d650eab021)] -> id: password]
+20:25:05.516 INFO  manager.MyListener Start searching element by locator By.id: login
+20:25:05.527 INFO  manager.MyListener Finish searching element by locator By.id: login
+20:25:05.601 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (42d4d6ec759afacd094e72d650eab021)] -> id: login]
+20:25:07.612 INFO  manager.MyListener Start searching element by locator By.className: OUdAuicP657Tka
+20:25:17.653 INFO  manager.MyListener Finish searching element by locator By.className: OUdAuicP657Tka
+20:25:19.656 INFO  manager.NGListener Test successfully completed: loginNegativeWrongEmailTest
+20:25:19.657 INFO  manager.NGListener Test started: loginNegativeWrongEmailTest
+20:25:19.849 INFO  manager.MyListener Start searching element by locator By.cssSelector: a[href='/login']
+20:25:19.909 INFO  manager.MyListener Finish searching element by locator By.cssSelector: a[href='/login']
+20:25:22.130 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (42d4d6ec759afacd094e72d650eab021)] -> css selector: a[href='/login']]
+20:25:22.131 INFO  manager.MyListener Start searching element by locator By.id: user
+20:25:22.248 INFO  manager.MyListener Finish searching element by locator By.id: user
+20:25:22.351 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (42d4d6ec759afacd094e72d650eab021)] -> id: user]
+20:25:22.577 INFO  manager.MyListener Start searching element by locator By.id: login
+20:25:22.614 INFO  manager.MyListener Finish searching element by locator By.id: login
+20:25:22.751 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (42d4d6ec759afacd094e72d650eab021)] -> id: login]
+20:25:24.757 INFO  manager.MyListener Start searching element by locator By.id: password
+20:25:24.784 INFO  manager.MyListener Finish searching element by locator By.id: password
+20:25:24.851 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (42d4d6ec759afacd094e72d650eab021)] -> id: password]
+20:25:24.944 INFO  manager.MyListener Start searching element by locator By.id: login
+20:25:24.974 INFO  manager.MyListener Finish searching element by locator By.id: login
+20:25:25.039 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (42d4d6ec759afacd094e72d650eab021)] -> id: login]
+20:25:27.045 INFO  manager.MyListener Start searching element by locator By.className: OUdAuicP657Tka
+20:25:37.079 INFO  manager.MyListener Finish searching element by locator By.className: OUdAuicP657Tka
+20:25:39.356 INFO  manager.NGListener Test successfully completed: loginNegativeWrongEmailTest
+20:25:39.365 INFO  manager.NGListener Finish
