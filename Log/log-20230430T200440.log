@@ -1,0 +1,48 @@
+20:04:40.274 INFO  manager.ApplicationManager Config file is :configJulia
+20:04:40.276 INFO  manager.ApplicationManager Config file fullname is :C:\QA18\Trello_QA18\src\test\resources\configJulia.properties
+20:04:44.361 INFO  manager.ApplicationManager Testing on Chrome Driver
+20:04:48.677 INFO  manager.ApplicationManager Base url is: https://trello.com
+20:04:48.845 INFO  manager.NGListener Start
+20:04:48.952 INFO  manager.NGListener Test started: loginPositiveTest
+20:04:49.207 INFO  manager.MyListener Start searching element by locator By.cssSelector: a[href='/login']
+20:04:49.813 INFO  manager.MyListener Finish searching element by locator By.cssSelector: a[href='/login']
+20:04:52.908 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (b58aa40f7e42642e66c75c2a1bef59f4)] -> css selector: a[href='/login']]
+20:04:52.908 INFO  manager.MyListener Start searching element by locator By.id: user
+20:04:53.016 INFO  manager.MyListener Finish searching element by locator By.id: user
+20:04:53.578 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (b58aa40f7e42642e66c75c2a1bef59f4)] -> id: user]
+20:04:53.852 INFO  manager.MyListener Start searching element by locator By.id: login
+20:04:53.899 INFO  manager.MyListener Finish searching element by locator By.id: login
+20:04:54.011 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (b58aa40f7e42642e66c75c2a1bef59f4)] -> id: login]
+20:04:56.012 INFO  manager.MyListener Start searching element by locator By.id: password
+20:04:56.896 INFO  manager.MyListener Finish searching element by locator By.id: password
+20:04:57.066 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (b58aa40f7e42642e66c75c2a1bef59f4)] -> id: password]
+20:04:57.359 INFO  manager.MyListener Start searching element by locator By.id: login-submit
+20:04:57.393 INFO  manager.MyListener Finish searching element by locator By.id: login-submit
+20:04:57.530 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (b58aa40f7e42642e66c75c2a1bef59f4)] -> id: login-submit]
+20:04:59.542 INFO  manager.MyListener Start searching element by locator By.className: OUdAuicP657Tka
+20:05:03.617 INFO  manager.MyListener Finish searching element by locator By.className: OUdAuicP657Tka
+20:05:05.624 INFO  manager.MyListener Start searching element by locator By.className: OUdAuicP657Tka
+20:05:05.649 INFO  manager.MyListener Finish searching element by locator By.className: OUdAuicP657Tka
+20:05:05.650 INFO  manager.MyListener Start searching element by locator By.cssSelector: span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']
+20:05:15.718 ERROR manager.MyListener Something went wrong!
+20:05:15.718 ERROR manager.MyListener no such element: Unable to locate element: {"method":"css selector","selector":"span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MLUKINA-L', ip: '192.168.80.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mlukina\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63048}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b58aa40f7e42642e66c75c2a1bef59f4
+*** Element info: {Using=css selector, value=span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']}
+20:05:15.719 ERROR manager.MyListener no such element: Unable to locate element: {"method":"css selector","selector":"span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MLUKINA-L', ip: '192.168.80.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mlukina\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63048}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b58aa40f7e42642e66c75c2a1bef59f4
+*** Element info: {Using=css selector, value=span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']}
+20:05:16.299 INFO  manager.MyListener Here is the link to screenshot with error: src/test/screenshots/screenshot-315.png
+20:05:16.323 ERROR manager.NGListener Test failed: loginPositiveTest
+20:05:16.332 INFO  manager.NGListener Finish

@@ -8,7 +8,7 @@ public class LoginTest extends TestBase{
 
    // @Test(dataProvider = "loginData", dataProviderClass = DataProviderUser.class)
   // public void loginPositiveTest(User user){
-   @Test
+   @Test(groups = {"first"})
     public void loginPositiveTest(){
 
        // logger.info("Login Positive Test Started");

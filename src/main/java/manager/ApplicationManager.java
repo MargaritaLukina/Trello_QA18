@@ -20,17 +20,19 @@ public class ApplicationManager {
     EventFiringWebDriver wd;
     HelperUser user;
 
-    public ApplicationManager(String browser) {
-        properties=new Properties();
-        this.browser = browser;
-    }
+
 
     String browser;
     Logger logger= LoggerFactory.getLogger(ApplicationManager.class);
     Properties properties;
 
+    public ApplicationManager(String browser) {
+        properties=new Properties();
+        this.browser = browser;
+    }
+
     public void init() throws IOException {
-        String target= System.getProperty("target","config");
+        String target= System.getProperty("configuration","config");
 
         logger.info("Config file is :" +target);
 
@@ -45,6 +47,7 @@ public class ApplicationManager {
         }else if (browser.equals(BrowserType.FIREFOX)){
             wd= new EventFiringWebDriver(new FirefoxDriver());
             logger.info("Testing in Firefox");
+
         }
 
         wd.register(new MyListener());
@@ -54,6 +57,7 @@ public class ApplicationManager {
         //wd.navigate().to("https://trello.com");
 
         wd.navigate().to(properties.getProperty("web.baseUrl"));
+
         logger.info("Base url is: "+properties.getProperty("web.baseUrl"));
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         user = new HelperUser(wd);

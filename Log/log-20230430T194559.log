@@ -1,0 +1,36 @@
+19:45:59.245 INFO  manager.ApplicationManager Config file is :config
+19:45:59.250 INFO  manager.ApplicationManager Config file fullname is :C:\QA18\Trello_QA18\src\test\resources\config.properties
+19:46:04.243 INFO  manager.ApplicationManager Testing on Chrome Driver
+19:46:08.842 INFO  manager.ApplicationManager Base url is: https://trello.com
+19:46:08.937 INFO  manager.NGListener Start
+19:46:09.017 INFO  manager.NGListener Test started: loginPositiveTest
+19:46:09.248 INFO  manager.MyListener Start searching element by locator By.cssSelector: a[href='/login']
+19:46:10.079 INFO  manager.MyListener Finish searching element by locator By.cssSelector: a[href='/login']
+19:46:12.752 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (4c7c5eb3a402acf4dae1be30f9003ec4)] -> css selector: a[href='/login']]
+19:46:12.753 INFO  manager.MyListener Start searching element by locator By.id: user
+19:46:12.814 INFO  manager.MyListener Finish searching element by locator By.id: user
+19:46:12.984 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (4c7c5eb3a402acf4dae1be30f9003ec4)] -> id: user]
+19:46:13.415 INFO  manager.MyListener Start searching element by locator By.id: login
+19:46:13.470 INFO  manager.MyListener Finish searching element by locator By.id: login
+19:46:13.895 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (4c7c5eb3a402acf4dae1be30f9003ec4)] -> id: login]
+19:46:15.904 INFO  manager.MyListener Start searching element by locator By.id: password
+19:46:17.569 INFO  manager.MyListener Finish searching element by locator By.id: password
+19:46:17.709 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (4c7c5eb3a402acf4dae1be30f9003ec4)] -> id: password]
+19:46:17.966 INFO  manager.MyListener Start searching element by locator By.id: login-submit
+19:46:18.003 INFO  manager.MyListener Finish searching element by locator By.id: login-submit
+19:46:18.140 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (4c7c5eb3a402acf4dae1be30f9003ec4)] -> id: login-submit]
+19:46:20.145 INFO  manager.MyListener Start searching element by locator By.className: OUdAuicP657Tka
+19:46:24.418 INFO  manager.MyListener Finish searching element by locator By.className: OUdAuicP657Tka
+19:46:26.423 INFO  manager.MyListener Start searching element by locator By.className: OUdAuicP657Tka
+19:46:26.446 INFO  manager.MyListener Finish searching element by locator By.className: OUdAuicP657Tka
+19:46:26.446 INFO  manager.MyListener Start searching element by locator By.cssSelector: span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']
+19:46:26.464 INFO  manager.MyListener Finish searching element by locator By.cssSelector: span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']
+19:46:26.583 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (4c7c5eb3a402acf4dae1be30f9003ec4)] -> css selector: span[class='DweEFaF5owOe02 pMvTtmeStXaSEs rQ86P0iNikD4I9 Cg0RMJhBknTRbM']]
+19:46:26.583 INFO  manager.MyListener Start searching element by locator By.xpath: //button[@data-testid='account-menu-logout']
+19:46:26.652 INFO  manager.MyListener Finish searching element by locator By.xpath: //button[@data-testid='account-menu-logout']
+19:46:28.617 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (4c7c5eb3a402acf4dae1be30f9003ec4)] -> xpath: //button[@data-testid='account-menu-logout']]
+19:46:28.617 INFO  manager.MyListener Start searching element by locator By.id: logout-submit
+19:46:28.639 INFO  manager.MyListener Finish searching element by locator By.id: logout-submit
+19:46:29.454 INFO  manager.MyListener After clicking om[[ChromeDriver: chrome on WINDOWS (4c7c5eb3a402acf4dae1be30f9003ec4)] -> id: logout-submit]
+19:46:31.464 INFO  manager.NGListener Test successfully completed: loginPositiveTest
+19:46:31.470 INFO  manager.NGListener Finish

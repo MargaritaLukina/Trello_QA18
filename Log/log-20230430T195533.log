@@ -1,0 +1,5 @@
+19:55:33.854 INFO  manager.ApplicationManager Config file is :config
+19:55:33.858 INFO  manager.ApplicationManager Config file fullname is :C:\QA18\Trello_QA18\src\test\resources\config.properties
+19:55:33.999 INFO  manager.NGListener Start
+19:55:34.051 INFO  manager.NGListener Test started: loginPositiveTest
+19:55:34.056 INFO  manager.NGListener Finish
